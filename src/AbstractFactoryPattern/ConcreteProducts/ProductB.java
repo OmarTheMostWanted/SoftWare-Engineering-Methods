@@ -1,6 +1,6 @@
-package FactoryMethod.ConcreteProducts;
+package AbstractFactoryPattern.ConcreteProducts;
 
-import FactoryMethod.Product;
+import AbstractFactoryPattern.Product;
 
 public class ProductB implements Product {
 

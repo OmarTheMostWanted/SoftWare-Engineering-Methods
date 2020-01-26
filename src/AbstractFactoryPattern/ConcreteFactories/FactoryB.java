@@ -1,9 +1,9 @@
-package FactoryMethod.ConcreteFactories;
+package AbstractFactoryPattern.ConcreteFactories;
 
-import FactoryMethod.ConcreteProducts.ProductB;
-import FactoryMethod.Factory;
-import FactoryMethod.Product;
-import FactoryMethod.Type;
+import AbstractFactoryPattern.ConcreteProducts.ProductB;
+import AbstractFactoryPattern.Factory;
+import AbstractFactoryPattern.Product;
+import AbstractFactoryPattern.Type;
 
 public class FactoryB extends Factory {
 

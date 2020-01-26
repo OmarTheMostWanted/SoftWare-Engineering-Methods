@@ -1,4 +1,4 @@
-package FactoryMethod;
+package AbstractFactoryPattern;
 
 public enum Type {
     ProductA,

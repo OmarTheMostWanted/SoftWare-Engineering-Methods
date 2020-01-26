@@ -1,4 +1,4 @@
-package FactoryMethod;
+package AbstractFactoryPattern;
 
 public interface Product {
 

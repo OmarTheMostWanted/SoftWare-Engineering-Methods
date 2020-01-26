@@ -1,4 +1,4 @@
-package FactoryMethod;
+package AbstractFactoryPattern;
 
 public abstract class Factory {
 

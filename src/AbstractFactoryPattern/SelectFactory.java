@@ -1,8 +1,8 @@
-package FactoryMethod;
+package AbstractFactoryPattern;
 
-import FactoryMethod.ConcreteFactories.FactoryA;
-import FactoryMethod.ConcreteFactories.FactoryB;
-import FactoryMethod.ConcreteFactories.FactoryC;
+import AbstractFactoryPattern.ConcreteFactories.FactoryA;
+import AbstractFactoryPattern.ConcreteFactories.FactoryB;
+import AbstractFactoryPattern.ConcreteFactories.FactoryC;
 
 public class SelectFactory {
 
