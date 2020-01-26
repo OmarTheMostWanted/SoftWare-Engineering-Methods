@@ -1,9 +1,5 @@
 package FactoryMethod;
 
-import FactoryMethod.ConcreteFactories.FactoryA;
-import FactoryMethod.ConcreteFactories.FactoryB;
-import FactoryMethod.ConcreteFactories.FactoryC;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -12,9 +8,8 @@ public class Program {
     private static ArrayList<Product> products;
 
     public static void main(String[] args) {
-        FactoryA factoryA = new FactoryA();
-        FactoryB factoryB = new FactoryB();
-        FactoryC factoryC = new FactoryC();
+
+        SelectFactory selectFactory = new SelectFactory();
 
         products = new ArrayList<>();
 
@@ -30,14 +25,14 @@ public class Program {
 
             switch (input) {
                 case "A":
-                    doStuff(factoryA.factoryMethod());
+                    doStuff(selectFactory.createProduct(Type.ProductA));
                     continue loop;
                 case "B":
-                    doStuff(factoryB.factoryMethod());
+                    doStuff(selectFactory.createProduct(Type.ProductB));
                     continue loop;
 
                 case "C":
-                    doStuff(factoryC.factoryMethod());
+                    doStuff(selectFactory.createProduct(Type.ProductC));
                     continue loop;
 
                 case "S":
