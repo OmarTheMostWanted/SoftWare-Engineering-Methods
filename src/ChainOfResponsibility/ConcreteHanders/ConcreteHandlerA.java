@@ -3,9 +3,13 @@ package ChainOfResponsibility.ConcreteHanders;
 import ChainOfResponsibility.Handler;
 import ChainOfResponsibility.Order;
 
-public class ConcreteHanderA extends Handler {
+public class ConcreteHandlerA extends Handler {
 
-    public ConcreteHanderA(Handler next) {
+    /**
+     * it uses the default constructor.
+     * @param next next handler in the chain.
+     */
+    public ConcreteHandlerA(Handler next) {
         super(next);
     }
 

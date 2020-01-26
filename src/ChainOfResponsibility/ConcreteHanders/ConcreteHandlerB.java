@@ -3,9 +3,9 @@ package ChainOfResponsibility.ConcreteHanders;
 import ChainOfResponsibility.Handler;
 import ChainOfResponsibility.Order;
 
-public class ConcreteHanderB extends Handler {
+public class ConcreteHandlerB extends Handler {
 
-    public ConcreteHanderB(Handler next) {
+    public ConcreteHandlerB(Handler next) {
         super(next);
     }
 

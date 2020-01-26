@@ -8,6 +8,11 @@ public abstract class Handler {
         this.next = next;
     }
 
+
+    /**
+     * Each subclass of the handler has its own handleRequest method.
+     * @param order the order.
+     */
     public void handleRequest(Order order){
         if(next != null){
             next.handleRequest(order);
