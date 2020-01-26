@@ -55,7 +55,7 @@ public class Program {
                     break loop;
 
                 default:
-                    System.out.println("Wrong input");
+                    System.err.println("Wrong input");
             }
         }
 
