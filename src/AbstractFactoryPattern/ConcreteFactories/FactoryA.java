@@ -17,7 +17,7 @@ public class FactoryA extends Factory {
     }
 
     @Override
-    public Product factoryMethod() {
+    public Product createProduct() {
         numberOfProducts++;
         return new ProductA(Type.ProductA + " number: " + numberOfProducts);
     }

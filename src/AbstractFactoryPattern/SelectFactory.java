@@ -4,6 +4,9 @@ import AbstractFactoryPattern.ConcreteFactories.FactoryA;
 import AbstractFactoryPattern.ConcreteFactories.FactoryB;
 import AbstractFactoryPattern.ConcreteFactories.FactoryC;
 
+/**
+ * abstracts the way factories are created and used.
+ */
 public class SelectFactory {
 
     private FactoryA factoryA;
@@ -20,13 +23,13 @@ public class SelectFactory {
     public Product createProduct(Type type) {
         switch (type) {
             case ProductA:
-                return factoryA.factoryMethod();
+                return factoryA.createProduct();
 
             case ProductB:
-                return factoryB.factoryMethod();
+                return factoryB.createProduct();
 
             case ProductC:
-                return factoryC.factoryMethod();
+                return factoryC.createProduct();
 
             default:
                 return null;

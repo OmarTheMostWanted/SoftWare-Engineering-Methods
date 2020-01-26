@@ -3,6 +3,9 @@ package AbstractFactoryPattern;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * this method wants objects to be created but does not know what factory to use or how the object is created.
+ */
 public class Program {
 
     private static ArrayList<Product> products;
