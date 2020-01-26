@@ -1,5 +1,8 @@
 package AbstractFactoryPattern;
 
+/**
+ * abstracts the factories and the object creation.
+ */
 public abstract class Factory {
 
     public abstract int getNumberOfProducts();
