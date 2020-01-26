@@ -53,6 +53,9 @@ public class Program {
 
                 case "Q":
                     break loop;
+
+                default:
+                    System.out.println("Wrong input");
             }
         }
 
