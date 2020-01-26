@@ -31,6 +31,7 @@ public class Program {
 
         }
         System.out.println("Program closed");
+
         scanner.close();
     }
 }
