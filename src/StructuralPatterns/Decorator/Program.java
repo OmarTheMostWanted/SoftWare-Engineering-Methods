@@ -9,7 +9,7 @@ public class Program {
 
         basicComponent.operationA();
 
-        SpecialClassA specialClass = new SpecialClassA(basicComponent , "A");
+        SpecialClassA specialClass = new SpecialClassA(basicComponent, "A");
 
         specialClass.newBehavior();
 
